@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <link rel="stylesheet" type="text/css" href="Estilos.css"/>
+    <title>Calculadora</title>
+</head>
+<body>
+  <div align="center">
+   <header>
+    <h1 class="titulo">Calculadora Online</h1>
+   </header>
+</div>
+
+<div align="center">
+  <form method="post" action="Operaciones.php">
+    <label for="C1">Valor 1 </label>
+     <input type="text" name="C1" id="C1" placeholder="Ingrese un valor" />
+      <br /><br />
+    <label for="C2">Valor 2 </label>
+     <input type="text" name="C2" id="C2" placeholder="Ingrese un valor" />
+      <br /><br />
+      <label for="operaciones">Seleccione la operación que desea realizar</label>
+       <br /><br />
+       <select id="zoom" name="operaciones">
+       <option value="Suma">Suma</option>
+       <option value="Resta">Resta</option>
+       <option value="Multiplicación">Multiplicación</option>
+       <option value="División">División</option>
+      </select>
+       <br /><br />
+      <input type="submit" value="Calcular" />
+
+
+</form>
+</div> 
+
+</body>
+</html>
